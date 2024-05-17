@@ -45,10 +45,12 @@
     padding: 1rem 0;
 }
 
-.btnc{
+.card .btn{
     display: block;
-    width: 80%;
+    width: 10rem;
+    height: 4rem;
     margin: 2rem auto;
+    text-align: center;
 }
 
 @media screen and (max-width:740px) {

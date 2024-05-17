@@ -1,6 +1,7 @@
 import React from 'react';
 import "./FooterStyles.css";
-import { FaHome, FaInstagram, FaMailBulk, FaPhone, FaTwitter, FaFacebook } from "react-icons/fa";
+import { FaHome, FaInstagram, FaMailBulk, FaPhone, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -8,7 +9,7 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='left'>
                     <div className='location'>
-                        <FaHome size={20} style={{ color: "#fff", marginRight: "2rem"}} />
+                        <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                         <p>123 Housing Society.</p>
                         <p>Pakistan</p>
                     </div>
@@ -26,9 +27,9 @@ const Footer = () => {
                         ipsumlorem ipsumlorem ipsumlorem ipsumlorem
                         ipsumlorem ipsum lorem ipsumlorem ipsum</p>
                     <div className='social'>
-                        <FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-                        <FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-                        <FaTwitter size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                        <Link to="https://facebook.com" target='_blank'><FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem" }} /></Link>
+                        <Link to="https://instagram.com" target='_blank'><FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} /></Link>
+                        <Link to="https://linkedin.com" target='_blank'><FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} /></Link>
                     </div>
                 </div>
             </div>

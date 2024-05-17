@@ -6,7 +6,7 @@ const PricingCard = () => {
     return (
         <div className='pricing'>
             <div className='card-container'>
-                <div>
+                <div className='card'> 
                     <h3>- Basic -</h3>
                     <span className='bar'></span>
                     <p className='btc'>$30</p>
@@ -14,9 +14,9 @@ const PricingCard = () => {
                     <p>- 3 Pagess -</p>
                     <p>- Featured -</p>
                     <p>- Responsive Design -</p>
-                    <Link to="/contact" className='btnc'>Purchase Now</Link>
+                    <Link to="/contact" className='btn'>Purchase Now</Link>
                 </div>
-                <div>
+                <div className='card'>
                     <h3>- Business -</h3>
                     <span className='bar'></span>
                     <p className='btc'>$70</p>
@@ -24,9 +24,9 @@ const PricingCard = () => {
                     <p>- 5 Pagess -</p>
                     <p>- Featured -</p>
                     <p>- Responsive Design -</p>
-                    <Link to="/contact" className='btnc'>Purchase Now</Link>
+                    <Link to="/contact" className='btn'>Purchase Now</Link>
                 </div>
-                <div>
+                <div className='card'>
                     <h3>- Advanced -</h3>
                     <span className='bar'></span>
                     <p className='btc'>$100</p>
@@ -34,7 +34,7 @@ const PricingCard = () => {
                     <p>- 8 Pagess -</p>
                     <p>- Featured -</p>
                     <p>- Responsive Design -</p>
-                    <Link to="/contact" className='btnc'>Purchase Now</Link>
+                    <Link to="/contact" className='btn'>Purchase Now</Link>
                 </div>
             </div>
         </div>
